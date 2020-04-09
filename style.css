@@ -1,13 +1,25 @@
+body, html {
+    height: 100%;
+    display: grid;
+}
+   
 #googlelogo {
-    max-width: 100%;
-    height: 120px;
-    padding-bottom: 15px;
-    align-self: center;
-    }
-    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
 .img-search{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: -100px;
+    margin: auto;
+    justify-self: center;
     }
+
+.search-box {
+    width: 450px;
+    border-radius: 20px;
+    height: 2.6em;
+    display: grid;
+    justify-content: center;
+    border: solid #c6c6c6 1px;
+    padding: 0 10px;
+    align-self: center;    
