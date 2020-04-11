@@ -2,11 +2,24 @@ body, html {
     height: 100%;
     display: grid;
 }
+
+li {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
    
 #googlelogo {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 25px;
+}
+
+.float-left {
+    float: right;
 }
 
 .img-search{
